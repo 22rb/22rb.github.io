@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  background-color: var(--color-bg);
+  color: var(--color-main);
+  background-color: #ebeae9;
+}
+body {
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "蘋方體";
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  word-wrap: break-word;
+}
+p,
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+  /* height: 100vh; */
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+}
